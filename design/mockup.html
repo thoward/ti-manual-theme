@@ -1,0 +1,396 @@
+<html>
+<link rel="stylesheet" href="renner/stylesheet.css">
+<link rel="stylesheet" href="nimbus-sans/stylesheet.css">
+<style>
+html {
+	scroll-behavior: smooth;
+    scroll-padding-top: 6em;
+}
+body {
+	background-color: #ffffef;
+  background-image: url("sandpaper.png");
+	/* From: https://www.transparenttextures.com/patterns/sandpaper.png */
+  font-family: 'Nimbus Sans L';
+	font-size: 1em;
+  max-width: 810px;
+  margin: auto;
+  color: #222222;
+  text-shadow: 0 0 0.035em #333333cc;
+  letter-spacing: .005em;
+}
+
+section.cover .book-title { 
+	font-family: 'Architype Renner Bold';
+	text-transform: uppercase;
+	font-size: 4em;
+	margin-top: 1.5em;
+  display: block;
+}
+section.cover .title {
+	font-family: 'Nimbus Sans L';
+	text-transform: uppercase;
+  display: block;
+	font-size: 3.66em;
+	margin-bottom: -0.3em;
+}
+section.cover .subtitle {
+	font-family: 'Architype Renner Bold';
+	text-transform: uppercase;
+	display:block;
+	font-size: 3em;
+}
+section.cover {
+	background-color: #003490b8;
+	color: #ffffee;
+	text-shadow: 0 0 0.5px #ffffee;
+	min-height: 1080px;
+  padding-left: 7%;
+  padding-right: 7%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+section {
+margin-left: 2em;
+margin-right: 2em;
+margin-top: 2em;
+margin-bottom: 1em;
+}
+section section {
+margin-left: 0;
+margin-right: 0;
+
+}
+section header h1 {
+  border-bottom: 4px solid;
+  width: 100%;
+  display: block;
+  text-transform: uppercase;
+}
+section h2 {
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-size: 1.25em;
+    line-height: 1.5em;
+    padding-top: .25em;
+    margin-bottom: 1.5em;
+}
+section header {
+    position: sticky;
+    top: 0;
+    background-color: #ffffef;
+    background-image: url("sandpaper.png");
+    padding-top: 1em;
+    padding-bottom: .25rem;
+    z-index: 2;
+}
+section footer { 
+    position: sticky;
+    bottom: -1px;
+    background-color: #ffffef;
+    background-image: url("sandpaper.png");
+    z-index: 1;
+    height: .5em;
+    padding-top: .5em;
+    padding-bottom: 1em;
+}
+ul.toc {
+    max-width: 64em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none
+}
+ul.toc  ul {
+  list-style: none;
+  padding-inline-start: 1em;
+}
+ul.toc li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . "
+ ". . . . . . . . . . . . . . . . . . . . ";
+}
+ul.toc span:first-child {
+    padding-right: 0.33em;
+    background-color: #ffffef;
+    background-image: url("sandpaper.png");
+}
+ul.toc span + span {
+    float: right;
+    padding-left: 0.33em;
+    background-color: #ffffef;
+    background-image: url("sandpaper.png");
+}
+ul.toc > li {
+  margin-bottom: 1em;
+}
+sup {
+    font-size: 0.5em;
+}
+footer .toc-link {
+    float: right;
+}
+a, a:visited, a:link {
+  color: #222222;
+  text-decoration: none;
+}
+a:hover {
+    border-bottom: 1px dotted;
+}
+.footer-content { visibility: hidden;}
+.stuck {
+    visibility: visible;
+}
+</style>
+<body>
+  <section class="cover"> 
+      <!--    <div class="cover-content"> -->
+      <span class="title">Texas Instruments</span>
+      <span class="subtitle">T1-5310 Business Manager</span>
+      <span class="book-title">Guidebook</span>
+      <!--    </div> -->
+  </section>
+  <section id="inside-cover">
+        <header>
+            <h1 class="chapter-title"></h1>
+        </header>
+        <p><strong>This book was developed by:</strong></p>
+        <p>
+        Elbert B. Greynolds, Jr., Ph.D., CPA <br/>
+        <em>Associate Professor of Accounting</em><br/>
+        <em>Southern Methodist University</em><br/>
+        </p>
+        <p>Chris Alley</p>
+        <br/>
+        <p><strong>With contributions by:</strong></p>
+        <p>Nancy Barnett</p>
+        <p>Gary George</p>
+        <p>Susan Gum</p>
+        <p>Nancy Lassere</p>
+        <p>Madhu Nerlikar</p>
+        <p>Loc Truong</p>
+        <p>Robert E. Whitsitt, II</p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>
+        <strong>IMPORTANT:</strong> Texas Instruments makes no warranty, either express 
+        or implied, including but not limited to any implied warranties of
+        merchantability and fitness for a particular purpose, regarding these
+        book materials and makes such materials available solely on an
+        "as-is" basis.
+        </p>
+        <p>
+        In no event shall Texas Instruments be liable to anyone for special,
+        collateral, incidental, or consequential damages in connection with
+        or arising out of the purchase or use of these materials and the
+        sole and exclusive liability to Texas Instruments, regardless of the
+        form of action, shall not exceed the purchase price of this book.
+        </p>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p>
+        <center><small>Copyright &nbsp; &nbsp; &nbsp; &nbsp; 1983 Texas Instruments Incorporated</small></center>
+        </p>
+        
+
+  </section>
+  <section id="table-of-contents">
+      <header>
+          <h1 class="chapter-title">Table of Contents</h1>
+      </header>
+      <ul class="toc">
+        <li>
+            <span><a href="#introduction">Chapter 1&mdash;Introduction</a></span>
+            <span><a href="#1-1"><strong>1</strong>-1</a></span>
+            <ul>
+                <li>
+                    <span><a href="#features">Features</a></span>
+                    <span><a href="#1-2"><strong>1</strong>-2</a></span>
+                </li>
+                <li>
+                    <span>Using the <em>Business Manager<sup>TM</sup> Guidebook</em></span>
+                    <span><strong>1</strong>-4</span>
+                </li>
+                <li>
+                    <span>The Keyboard</span>
+                    <span><strong>1</strong>-6</span>
+                </li>
+                <li>
+                    <span>Display Indicators</span>
+                    <span><strong>1</strong>-8</span>
+                </li>
+                <li>
+                    <span>Installing the Printer Paper</span>
+                    <span><strong>1</strong>-8</span>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <span>Fried Calamari</span>
+            <span>8.95</span>
+            <ul>
+            <li>
+                <span>test Salmon Ravioli</span>
+                <span>7.95</span>
+            </li>
+            <li>
+                <span>test Salmon Ravioli</span>
+                <span>7.95</span>
+            </li>
+            <ul>
+            <li>
+                <span>test Salmon Ravioli</span>
+                <span>7.95</span>
+            </li>
+            <li>
+                <span>test Salmon Ravioli</span>
+                <span>7.95</span>
+            </li>
+            </ul>
+            </ul>
+        </li>
+        <li>
+            <span>Almond Prawn Cocktail</span>
+            <span>7.95</span>
+        </li>
+        <li>
+            <span>Bruschetta</span>
+            <span>5.25</span>
+        </li>
+        <li>
+            <span>Margherita Pizza</span>
+            <span>10.95</span>
+        </li>
+      </ul>
+  </section>
+  <section>
+    <header>
+        <h1><a href="#introduction">Introduction</a></h1>
+    </header>
+    <p id="1-1"><a name="introduction"></a>
+    The introduction of the electronic desktop calculator has
+    revolutionized the business world. Many techniques that previously
+    required large volumes of tables, tedious calculations, or access to
+    larger computer centers can now be carried out in a fraction of the 
+    time. As modern businesses continue to grow and expand, however,
+    so does the need for more advanced calculators capable of
+    handling increasingly complicated calculations.
+    </p>
+    <p>
+    The TI-5310 <em>Business Manager</em>&trade; is designed to meet the needs of
+    the modern business person. Many of the financial calculations
+    required for today's business applications are too complex to be
+    performed quickly and easily on standard desktop calculators.
+    However, the specialized financial keys of the TI-5310 give you 
+    access to "built-in" financial functions that perform a complicated
+    series of mathematical operations with only a few simple 
+    keystrokes.
+    </p>
+    <p>
+    For instance, suppose you have to decide whether to invest in a
+    savings account or a capital asset. If you choose the capital asset,
+    should you lease or buy the product? Although these may appear to 
+    be simple decisions at first glance, a number of complex 
+    calculations are involved. With the special features of the TI-5310,
+    you can easily examine each alternative and select the one most
+    profitable for you and your company.
+    </p>
+    <p>
+    Combining these financial keys with the best features available on
+    most standard business machines, the TI-5310 gives you the speed 
+    and accuracy necessary to make better, more informed financial
+    decisions.
+    </p>
+    <section id="1-2">
+        <h2 id="features"><a href="#features">Features</a></h2>
+    <p>
+        <strong>Financial Keys</strong>&mdash;Provide access to the calculator's built-in financial 
+        functions. Complicated calculations involving the time value of money 
+        can be solved with a few simple keystrokes.</p>
+    <p>
+        <strong>Margin Mode</strong>&mdash;Complements the financial keys by allowing you to 
+        perform gross profit margin calculations involving an item's cost,
+        selling price, and profit margin.
+    </p>
+    <p>
+        <strong>Independent Add Register</strong>&mdash;Performs addition and substraction with 
+        the familiar entry sequence of standard business machines. 
+        Multiplication and division are performed independently of any 
+        add/subtract operations in progress.</p>
+    <p>
+        <strong>Full Memory</strong>&mdash;Provides four memory operations: sum to, subtract
+        from, subtotal, or total the memory contents.
+    </p>
+    <p>
+        <strong>Keyboard</strong>&mdash;Consists of 38 touch keys including large total, subtotal,
+        plus, minus, zero, and clear entry keys conveniently arranged on
+        full-sized "Touch Operator" keyboard.
+    </p>
+    <p>
+        <strong>Impact Printer</strong>&mdash;Prints up to 12 digits, convenient comma
+        punctuation, and an audit trail. The printer uses a standard
+        2-1/4-inch roll of paper and may be turned on or off with a special
+        keyboard switch.
+    </p>
+    <p>
+        <strong>Ten-level Keyboard Buffering</strong>&mdash;Allows you to enter up to 10
+        additional digits and functions while the printer is operating.
+    </p>
+    <p>
+        <strong>Two-Key Rollover</strong>&mdash;Increases entry speed by allowing a second key
+        to be pressed before the previously pressed key is released.
+    </p>
+    <p>
+        <strong>Decimal Switch</strong>&mdash;Displays and prints results in either floating or
+        fixed-decimal (0, 2, 3, or 4 decimal places) mode. The add mode
+        allows you to enter a series of numbers containing two decimal 
+        places, such as dollars and cents, without having to enter the
+        decimal point.
+    </p>
+    <p>
+        <strong>Sigma Mode</strong>&mdash;Keeps a running total of all multiplication and
+        division calculations by automatically summing the results to the
+        independent add register.
+    </p>
+    <p>
+        <strong>Automatic Constant</strong>&mdash;Performs multiplication or division by a 
+        constant without reentry of the constant.
+    </p>
+    <p>
+        <strong>Percent Key</strong>&mdash;Calculates percentages, add-ons, and discounts.
+    </p>
+    <p>
+        <strong>5/4 Rounding Switch</strong>&mdash;Rounds the results of all multiplication and
+        division calculations to the selected number of decimal places.
+    </p>
+    <p>
+        <strong>Non-Add Key for Dating and Numbering</strong>&mdash;Labels a tape with a date
+        or stock number without affecting operations in progress.
+    </p>
+    <footer><div class="footer-content"><a href="#1-2"><strong>1</strong>-2</a>&mdash;<a href="#introduction">Introduction</a> :: <a href="#features">Features</a><span class="toc-link">(<a href="#table-of-contents">&#9652; toc</a>)</span></div></footer>
+    </section>
+  </section>
+</body>
+<script defer>
+    const el = document.querySelectorAll("footer")
+    const observer = new IntersectionObserver(
+        ([e]) => e.target.querySelector(".footer-content").classList.toggle("stuck", e.intersectionRatio < 1),
+        { threshold: [0, 1] }
+    );
+
+    el.forEach(function(e){observer.observe(e)});
+</script>
