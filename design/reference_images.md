@@ -1,8 +1,6 @@
 # Reference
 
-## Reference Images
-
-This is a collection of reference images of the printed manual.
+This is a collection of reference information, including [measurements](#measurements), [reference images](#reference-images), [similar projects](#reference-projects), and [platforms and frameworks](#platforms) to implement.
 
 ## Measurements
 
@@ -45,7 +43,7 @@ This is a collection of reference images of the printed manual.
 * Space Between Paragraphs: 2mm
 
 * Table Header indent: 5mm 
-* SMall Itlitc text (continued): 1mm
+* Small Italic text (continued): 1mm
 
 * Footer Top Margin: 0.6cm, 1/4 inch
 * Footer Text Height: 0.2cm, 3/32 inch
@@ -77,6 +75,7 @@ This is a collection of reference images of the printed manual.
 * AsciiDoc
 * docsify.js
 * Hexo
+* HyperTemplates
 * 
 * Plain HTML (single page, vertically stacked)
 * Plain HTML (multi page, cover, toc, index, and content layouts)
@@ -87,3 +86,49 @@ This is a collection of reference images of the printed manual.
 https://github.com/troxler/awesome-css-frameworks#class-less
 
 
+## Reference Images
+
+This is a collection of reference images of the printed manual.
+
+### Cover and Spine
+
+![Cover](reference_images/cover.jpg)
+![Cover 2](reference_images/cover_2.jpg)
+![Cover 3](reference_images/cover_3.jpg)
+![Cover 4](reference_images/cover_4.jpg)
+![Cover 5](reference_images/cover_5.jpg)
+![Cover 6](reference_images/cover_6.jpg)
+![Cover Back](reference_images/cover_back.jpg)
+![Spine](reference_images/spine.jpg)
+
+### Title and Table of Contents
+
+![Inside Page Title](reference_images/inside_page_title.jpg)
+![Inside Page TOC](reference_images/inside_page_toc.jpg)
+![Inside Page TOC 2](reference_images/inside_page_toc_2.jpg)
+
+### Introduction Pages
+
+![Inside Page Introduction](reference_images/inside_page_introduction.jpg)
+![Inside Page Introduction 2](reference_images/inside_page_introduction_2.jpg)
+![Inside Page Introduction 3](reference_images/inside_page_introduction_3.jpg)
+![Inside Page Introduction 4](reference_images/inside_page_introduction_4.jpg)
+![Inside Page Introduction 5](reference_images/inside_page_introduction_5.jpg)
+
+### Content Pages
+
+![Inside Page Fundamentals](reference_images/inside_page_fundamentals.jpg)
+![Inside Page Basic Operations](reference_images/inside_page_basic_operations.jpg)
+![Inside Page Basic Operations 2](reference_images/inside_page_basic_operations_2.jpg)
+![Inside Page Basic Operations 3](reference_images/inside_page_basic_operations_3.jpg)
+
+### Back Matter
+
+![Inside Page Appendices](reference_images/inside_page_appendices.jpg)
+![Inside Page Appendices 2](reference_images/inside_page_appendices_2.jpg)
+![Inside Page Appendices 3](reference_images/inside_page_appendices_3.jpg)
+![Inside Page Appendices 4](reference_images/inside_page_appendices_4.jpg)
+![Inside Page Bibliography](reference_images/inside_page_bibliography.jpg)
+![Inside Page Index](reference_images/inside_page_index.jpg)
+![Inside Page Index 2](reference_images/inside_page_index_2.jpg)
+![Inside Page Notes](reference_images/inside_page_notes.jpg)
